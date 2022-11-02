@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+    color: white;
+    background-color: rgb(112, 226, 255);
+}
+
+.heading{
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.heading h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.291);
+}
+
+.page{
+    display: table;
+    margin: 0 auto 0 auto;
+    width: 800px;
+}
+
+.box{
+    cursor: pointer;
+    transition: 0.5s;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    padding: 10px;
+}
+
+.modal{
+    display: none;
+    background:rgb(168, 238, 255);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.196);
+    padding-bottom: 30px;
+}
+
+.modal a{
+    background-color: transparent;
+    margin-left: 10px;
+    cursor: pointer;
+    float: left;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.291);
+}
+
+#mySelf{
+    margin: 0 0 0 50px;
+    width: 200px;
+}
+
+#mySelf:hover > #pf, #mySelf:hover{
+    transition: 0.5s;
+    width: 220px;
+
+}
+
+#pf{
+    transition: 0.5s;
+    width: 200px;
+    border-radius: 10px;
+}
+
+#pf2{
+    margin: 40px 0 0 20px;
+    transition: 0.5s;
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+    background-color: rgb(168, 238, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.178);
+}
+
+#mySelfModal h1{
+    background-color: transparent;
+    margin: 50px 180px 0 0;
+    float: right;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.291);
+}
+
+#mySelfModalP1{
+    background-color: transparent;
+    margin: -150px 20px 0 0;
+    float: right;
+    width: 280px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.324);
+}
+
+#mySelfModalP2{
+    background-color: transparent;
+    margin: 20px 0 0 40px;
+    width: 540px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.324);
+}
+
+#hobbyimg{
+    transition: 0.5s;
+    width: 400px;
+    border-radius: 10px;
+}   
+
+#myHobby{
+    margin: -180px 0 0 340px;
+    width: 400px;
+    float: left;
+}
+
+#myHobby:hover > #hobbyimg, #myHobby:hover{
+    transition: 0.5s;
+    width: 420px;
+}
+
+#hobbyimg2{
+    margin: 30px 0 0 40px;
+    transition: 0.5s;
+    width: 270px;
+    border-radius: 10px;
+    background-color: rgb(168, 238, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.178);
+} 
+#hobbyimg3{
+    float: right;
+    margin: 20px 30px 0 40px;
+    transition: 0.5s;
+    width: 270px;
+    border-radius: 10px;
+    background-color: rgb(168, 238, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.178);
+}  
+#hobbyimg4{
+    float: left;
+    margin: 30px 30px 0 40px;
+    transition: 0.5s;
+    width: 230px;
+    border-radius: 10px;
+    background-color: rgb(168, 238, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.178);
+}  
+
+
+#myHobbyModal h1{
+    background-color: transparent;
+    margin: 40px 0 0 40px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.291);
+}
+
+#myHobbyModalH1{
+    background-color: transparent;
+    float: right;
+    margin: 30px 190px 0 0px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.291);
+}
+
+#myHobbyModalP1{
+    background-color: transparent;
+    margin: 20px 0 0 40px;
+    width: 520px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.324);
+}
+
+#myHobbyModalP2{
+    background-color: transparent;
+    float: right;
+    margin: -150px 0 0 10px;
+    width: 260px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.324);
+    font-size: 12px;
+}
+
+#myHobbyModalH2{
+    background-color: transparent;
+    float: left;
+    margin: 10px 0 0 40px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.291);
+}
+
+#myHobbyModalP3{
+    background-color: transparent;
+    float: left;
+    margin: 50px 0 0 -165px;
+    width: 210px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.324);
+    font-size: 12px
+}
+
+#myHobbyModalH4{
+    background-color: transparent;
+    float: right;
+    margin: 30px 155px 0 0px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.291);
+}
+
+#myHobbyModalP4{
+    background-color: transparent;
+    float: right;
+    margin: 20px 20px 0 10px;
+    width: 250px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.324);
+    font-size: 12px;
+}
+
+#schoolimg{
+    transition: 0.5s;
+    width: 400px;
+    border-radius: 10px;
+}   
+
+#mySchool{
+    margin: 50px 0 0 50px;
+    width: 400px;
+    float: left;
+}
+
+#mySchool:hover > #schoolimg, #mySchool:hover{
+    transition: 0.5s;
+    width: 420px;
+}
+
+#mySchoolModalP1{
+    background-color: transparent;
+    margin: 20px 0 0 40px;
+    width: 320px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.324);
+}
+
+#schoolimg1{
+    float: right;
+    margin: -750px 30px 0 40px;
+    transition: 0.5s;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(168, 238, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.178);
+}  
+#schoolimg2{
+    float: right;
+    margin: -550px 30px 0 40px;
+    transition: 0.5s;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(168, 238, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.178);
+}
+#schoolimg3{
+    float: right;
+    margin: -350px 30px 0 40px;
+    transition: 0.5s;
+    width: 220px;
+    border-radius: 10px;
+    background-color: rgb(168, 238, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.178);
+}  
+#schoolimg4{
+    float: right;
+    margin: -150px 30px 0 40px;
+    transition: 0.5s;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(168, 238, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.178);
+}
+
+#mySchoolModal h1{
+    background-color: transparent;
+    margin: 40px 0 0 40px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.291);
+}
+
+#futureimg{
+    transition: 0.5s;
+    width: 230px;
+    border-radius: 10px;
+}   
+
+#myFuture{
+    margin: 200px 0 0 50px;
+    width: 230px;
+    float: right;
+}
+
+#myFuture:hover > #futureimg, #myFuture:hover{
+    transition: 0.5s;
+    width: 250px;
+}
+
+#myFutureModal h1{
+    background-color: transparent;
+    margin: 40px 0 0 40px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.291);
+}
+
+#myFutureModalP1{
+    background-color: transparent;
+    margin: 20px 0 0 40px;
+    width: 520px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.324);
+}
+
+#futureimg1{
+    float: right;
+    margin: 0px 30px 0 40px;
+    transition: 0.5s;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(168, 238, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.178);
+}  
+#futureimg2{
+    float: lefy;
+    margin: 15px 30px 0 40px;
+    transition: 0.5s;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(168, 238, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.178);
+}
